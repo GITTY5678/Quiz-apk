@@ -42,7 +42,7 @@ public class Main {
                 System.out.println("Wrong Answer! The correct answer was: " + question.options[question.correctAnswer - 1]);
             }
         }
-        System.out.println("\nQuiz finished! Your score: " + score + "/" + loadedQuestions.size());
+        System.out.println("\nQuiz finished! Your score: " + score + " out of " + filteredQuestions.size());
         scan.close(); // Close the scanner to prevent resource leak
     }
 
