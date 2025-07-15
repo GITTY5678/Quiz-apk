@@ -5,7 +5,7 @@ public class Questionbank {
     public void addquestion(Question q){
         questions.add(q);
     }
-
+    
     public List<Question> getQuestions() {
         return questions;
     }
