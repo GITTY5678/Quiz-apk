@@ -2,11 +2,11 @@ import java.io.*;
 import java.util.*;
 
 
-public class display_ {
+public class Display {
     String question;
     String options[];
     
-    public display_(String question, String[] options) {
+    public Display(String question, String[] options) {
         this.question = question;
         this.options = options;
     }

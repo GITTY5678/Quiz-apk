@@ -5,8 +5,6 @@ public class Main {
     public static void main(String[] args){
         Scanner scan= new Scanner(System.in);
         Questionloader questionloader = new Questionloader();
-        // display dis =new display(); // No longer needed directly as Question class handles its own display
-        //Questionbank questionbank = new Questionbank(); // Commented out as it's not used in Main
         Admin admin = new Admin("Hariharasuthan"); 
         admin.ShowInfo(); //
         System.out.println("Enter user name:");
@@ -16,13 +14,23 @@ public class Main {
 
 
         int score = 0;
+        
         // Load questions once and shuffle the loaded list
         List<Question> loadedQuestions = questionloader.loadquestions("questions.txt"); //
-        Collections.shuffle(loadedQuestions);// [cite_start]// [cite: 1]
+        
+        // [cite_start]// [cite: 1]
         System.out.println("Choose the difficulty level: EASY, MEDIUM, HARD");
         String difficulty = scan.nextLine().toUpperCase(); // Read difficulty level from user input
+        //filter questions based on difficulty
+        List<Question> filteredQuestions = new ArrayList<>();
+        for (Question q : loadedQuestions) {
+            if (q.difficulty.equalsIgnoreCase("EASY")) { // Check if the question's difficulty matches
+                filteredQuestions.add(q);
+            }
+        }
+        Collections.shuffle(filteredQuestions);
 
-        for (Question question: loadedQuestions) { // Iterate over the shuffled list
+        for (Question question: filteredQuestions) { // Iterate over the shuffled list
             question.display(); // Use the Question object's own display method
 
             System.out.println("Enter your answer (1-" + "4" + "): ");
