@@ -4,9 +4,24 @@ Delhi
 Chennai
 Kolkata
 2
+EASY
 2 + 2 = ?
 3
 4
 5
 6
 2
+EASY
+WHO IS THE PRIME MINISTER OF INDIA IN 1983?
+narendra_modi
+indra_ghandhi
+rahul_ghandhi
+rajnath_govind
+2
+DIFFICULT
+
+
+
+
+
+

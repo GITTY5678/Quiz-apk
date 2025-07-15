@@ -13,7 +13,8 @@ public class Questionloader {
                     options[i]=br.readLine();
                 }
                 int correctanswer=Integer.parseInt(br.readLine());
-                questions.add(new Question(question, options, correctanswer));
+                String difficulty = br.readLine(); // Read the difficulty level
+                questions.add(new Question(question, options, correctanswer, difficulty));
                 
             }
         }

@@ -19,6 +19,8 @@ public class Main {
         // Load questions once and shuffle the loaded list
         List<Question> loadedQuestions = questionloader.loadquestions("questions.txt"); //
         Collections.shuffle(loadedQuestions);// [cite_start]// [cite: 1]
+        System.out.println("Choose the difficulty level: EASY, MEDIUM, HARD");
+        String difficulty = scan.nextLine().toUpperCase(); // Read difficulty level from user input
 
         for (Question question: loadedQuestions) { // Iterate over the shuffled list
             question.display(); // Use the Question object's own display method
