@@ -29,6 +29,7 @@ public class Main {
             }
         }
         Collections.shuffle(filteredQuestions);
+        long startTime = System.currentTimeMillis(); // Start the timer
 
         for (Question question: filteredQuestions) { // Iterate over the shuffled list
             question.display(); // Use the Question object's own display method
@@ -42,7 +43,10 @@ public class Main {
                 System.out.println("Wrong Answer! The correct answer was: " + question.options[question.correctAnswer - 1]);
             }
         }
+        long endTime = System.currentTimeMillis(); // End the timer
+        long timeTaken = (endTime - startTime); // Calculate the time taken in milliseconds
         System.out.println("\nQuiz finished! Your score: " + score + " out of " + filteredQuestions.size());
+        System.out.println("Time taken: " + timeTaken + " seconds");
         scan.close(); // Close the scanner to prevent resource leak
     }
 
