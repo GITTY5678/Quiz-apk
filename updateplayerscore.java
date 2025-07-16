@@ -16,7 +16,7 @@ public class updateplayerscore {
         // For now, we will just print the details
         public void update(){
         try(FileWriter writer = new FileWriter("scores.txt",true)){
-            writer.write("Player: " + playerName + ", Score: " + score + ", Time Taken: " + timeTaken + " ms\n");
+            writer.write("Player: " + playerName + ", Score: " + score + ", Time Taken: " + timeTaken/1000 + " sec\n");
             System.out.println("Score updated successfully for player: " + playerName);
         } catch (IOException e) {
             System.out.println("An error occurred while updating the score.");

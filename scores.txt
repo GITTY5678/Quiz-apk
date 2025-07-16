@@ -1,0 +1,1 @@
+Player: amir, Score: 2, Time Taken: 6.826 sec

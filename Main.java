@@ -47,6 +47,9 @@ public class Main {
         long timeTaken = (endTime - startTime); // Calculate the time taken in milliseconds
         System.out.println("\nQuiz finished! Your score: " + score + " out of " + filteredQuestions.size());
         System.out.println("Time taken: " + timeTaken/1000 + " seconds");
+        updateplayerscore updater = new updateplayerscore();
+        updater.updateplayerscore(user_name, score, timeTaken);
+        updater.update(); // Call the update method to save the score
         scan.close(); // Close the scanner to prevent resource leak
     }
 
