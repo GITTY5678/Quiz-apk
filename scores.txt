@@ -1,3 +1,11 @@
 
 Player: taiwan, Score: 0, Time Taken: 0 sec
 Player: amir, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 3, Time Taken: 22 sec
+Player: amir, Score: 0, Time Taken: 0 sec
+Player: ger, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
