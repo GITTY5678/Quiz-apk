@@ -46,8 +46,10 @@ public class Main {
         long endTime = System.currentTimeMillis(); // End the timer
         long timeTaken = (endTime - startTime); // Calculate the time taken in milliseconds
         System.out.println("\nQuiz finished! Your score: " + score + " out of " + filteredQuestions.size());
-        System.out.println("Time taken: " + timeTaken + " seconds");
+        System.out.println("Time taken: " + timeTaken/1000 + " seconds");
         scan.close(); // Close the scanner to prevent resource leak
     }
 
 }
+
+
