@@ -38,7 +38,11 @@ public class Questionloader {
                     return questions; // Or throw an exception
                 }
                 String difficulty = difficultyLine.trim(); // Use .trim() to remove whitespace
-
+                if( difficulty.isEmpty()) {
+                    System.err.println("Error: Difficulty line is empty for question: " + questionText);
+                    continue; // Skip this question if difficulty is empty
+                }
+                
                 questions.add(new Question(questionText, options, correctanswer, difficulty));
             }
         }

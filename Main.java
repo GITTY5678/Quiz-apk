@@ -15,19 +15,32 @@ public class Main {
 
         int score = 0;
         
+        
+        
         // Load questions once and shuffle the loaded list
         List<Question> loadedQuestions = questionloader.loadquestions("questions.txt"); //
-        
-        // [cite_start]// [cite: 1]
-        System.out.println("Choose the difficulty level: EASY, MEDIUM, HARD");
-        String difficulty = scan.nextLine().toUpperCase(); // Read difficulty level from user input
-        //filter questions based on difficulty
+
+        //Select the total number of questions to be asked
+        System.out.println("How many questions do you want to answer? (Max: " + loadedQuestions.size() + ")");
+        int totalQuestions = scan.nextInt();
+        if (totalQuestions > loadedQuestions.size()) {
+            System.out.println("You can only answer up to " + loadedQuestions.size() + " questions.");
+            totalQuestions = loadedQuestions.size();
+            }
+        // filter the questions based on the total number selected and mode of difficulty
+        System.out.println("Select difficulty level: Easy, Medium, Hard");
+        String difficulty = scan.nextLine().toUpperCase();
         List<Question> filteredQuestions = new ArrayList<>();
-        for (Question q : loadedQuestions) {
-            if (q.difficulty.equalsIgnoreCase("EASY")) { // Check if the question's difficulty matches
-                filteredQuestions.add(q);
+        for (int i = 0; i < totalQuestions; i++) {
+            if ((i < loadedQuestions.size()) && (loadedQuestions.get(i).difficulty.equalsIgnoreCase(difficulty))) {
+                filteredQuestions.add(loadedQuestions.get(i));
+            } else {
+                System.out.println("Not enough questions available.");
+                break;
             }
         }
+        
+        
         Collections.shuffle(filteredQuestions);
         long startTime = System.currentTimeMillis(); // Start the timer
 

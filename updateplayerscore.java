@@ -20,7 +20,7 @@ public class updateplayerscore {
             System.out.println("Score updated successfully for player: " + playerName);
         } catch (IOException e) {
             System.out.println("An error occurred while updating the score.");
-            e.printStackTrace();
+            e.printStackTrace();    
         }
     }
     }

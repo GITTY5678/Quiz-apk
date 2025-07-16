@@ -1,23 +1,352 @@
-What is the capital of India?
-Mumbai
-Delhi
-Chennai
-Kolkata
+What is the capital of France?
+Paris
+London
+Rome
+Berlin
+1
+EASY
+Which planet is known as the Red Planet?
+Earth
+Mars
+Jupiter
+Venus
 2
 EASY
-2 + 2 = ?
+What is 2 + 2?
 3
 4
 5
 6
 2
 EASY
-WHO IS THE PRIME MINISTER OF INDIA IN 1983?
-narendra_modi
-indra_ghandhi
-rahul_ghandhi
-rajnath_govind
+Who wrote "Romeo and Juliet"?
+Charles Dickens
+William Shakespeare
+Jane Austen
+Mark Twain
 2
+EASY
+What is the largest ocean on Earth?
+Atlantic Ocean
+Indian Ocean
+Arctic Ocean
+Pacific Ocean
+4
+EASY
+What is the chemical symbol for water?
+O2
+H2O
+CO2
+N2
+2
+EASY
+How many continents are there on Earth?
+5
+6
+7
+8
+3
+EASY
+What is the color of the sky on a clear day?
+Green
+Blue
+Yellow
+Red
+2
+EASY
+Which animal is known as the "King of the Jungle"?
+Tiger
+Lion
+Elephant
+Bear
+2
+EASY
+What is the fastest land animal?
+Cheetah
+Lion
+Gazelle
+Horse
+1
+EASY
+What is the currency of Japan?
+Yuan
+Won
+Yen
+Rupee
+3
+MEDIUM
+Who painted the Mona Lisa?
+Vincent van Gogh
+Pablo Picasso
+Leonardo da Vinci
+Claude Monet
+3
+MEDIUM
+What is the longest river in the world?
+Amazon River
+Nile River
+Mississippi River
+Yangtze River
+2
+MEDIUM
+Which country is famous for the Eiffel Tower?
+Italy
+Spain
+Germany
+France
+4
+MEDIUM
+What is the smallest country in the world?
+Monaco
+Vatican City
+San Marino
+Liechtenstein
+2
+MEDIUM
+Which gas do plants absorb from the atmosphere?
+Oxygen
+Nitrogen
+Carbon Dioxide
+Hydrogen
+3
+MEDIUM
+Who was the first man to walk on the moon?
+Buzz Aldrin
+Michael Collins
+Neil Armstrong
+Yuri Gagarin
+3
+MEDIUM
+What is the capital of Canada?
+Toronto
+Vancouver
+Ottawa
+Montreal
+3
+MEDIUM
+Which sense organ helps us to hear?
+Eyes
+Nose
+Ears
+Tongue
+3
+MEDIUM
+What is the highest mountain in Africa?
+Mount Everest
+Mount Kilimanjaro
+Mount Fuji
+Mount Elbrus
+2
+MEDIUM
+In what year did the Titanic sink?
+1900
+1912
+1925
+1938
+2
+MEDIUM
+Which element has the atomic number 1?
+Helium
+Oxygen
+Hydrogen
+Carbon
+3
+MEDIUM
+What is the largest desert in the world?
+Sahara Desert
+Arabian Desert
+Gobi Desert
+Antarctic Polar Desert
+4
+MEDIUM
+Who developed the theory of relativity?
+Isaac Newton
+Albert Einstein
+Stephen Hawking
+Galileo Galilei
+2
+MEDIUM
+Which planet is known as the "Morning Star" or "Evening Star"?
+Mars
+Jupiter
+Venus
+Mercury
+3
+MEDIUM
+What is the primary language spoken in Brazil?
+Spanish
+English
+Portuguese
+French
+3
+MEDIUM
+Which famous scientist formulated the laws of motion and universal gravitation?
+Albert Einstein
+Isaac Newton
+Nikola Tesla
+Marie Curie
+2
+MEDIUM
+Which country is the largest by land area?
+China
+United States
+Canada
+Russia
+4
+MEDIUM
+What is the primary color of a ripe banana?
+Red
+Green
+Yellow
+Orange
+3
+EASY
+Which continent is the coldest?
+Asia
+Antarctica
+Europe
+North America
+2
+EASY
+What is the largest land animal?
+Elephant
+Giraffe
+Rhinoceros
+Hippopotamus
+1
+EASY
+What do bees produce?
+Milk
+Honey
+Silk
+Wool
+2
+EASY
+Which fruit is known as the "king of fruits"?
+Apple
+Banana
+Mango
+Orange
+3
+EASY
+What is the name of the galaxy our solar system is in?
+Andromeda
+Triangulum
+Milky Way
+Sombrero
+3
+MEDIUM
+Which famous artist cut off part of his own ear?
+Pablo Picasso
+Salvador Dalí
+Vincent van Gogh
+Claude Monet
+3
+MEDIUM
+Who was the first President of the United States?
+Thomas Jefferson
+Abraham Lincoln
+George Washington
+John Adams
+3
+MEDIUM
+What is the process by which plants make their own food?
+Respiration
+Fermentation
+Photosynthesis
+Transpiration
+3
+MEDIUM
+Which of these is NOT a primary color of light?
+Red
+Green
+Blue
+Yellow
+4
+MEDIUM
+What is the chemical symbol for gold?
+Ag
+Au
+Fe
+Pb
+2
+MEDIUM
+Which ocean is the smallest?
+Atlantic Ocean
+Indian Ocean
+Southern Ocean
+Arctic Ocean
+4
+MEDIUM
+What is the longest bone in the human body?
+Femur
+Tibia
+Humerus
+Fibula
+1
+DIFFICULT
+Who wrote the novel "1984"?
+Aldous Huxley
+George Orwell
+Ray Bradbury
+J.R.R. Tolkien
+2
+DIFFICULT
+What is the only planet in our solar system that rotates clockwise?
+Mars
+Earth
+Venus
+Uranus
+3
+DIFFICULT
+Which war was fought between the North and South regions of the United States?
+World War I
+American Revolution
+Civil War
+Vietnam War
+3
+DIFFICULT
+What is the capital of Australia?
+Sydney
+Melbourne
+Canberra
+Brisbane
+3
+DIFFICULT
+Which of the following is an example of an amphibian?
+Snake
+Turtle
+Frog
+Crocodile
+3
+DIFFICULT
+What is the hardest natural substance on Earth?
+Graphite
+Quartz
+Diamond
+Corundum
+3
+DIFFICULT
+Who was the monarch of the UK when World War II ended?
+King George V
+Queen Elizabeth II
+King Edward VIII
+King George VI
+4
+DIFFICULT
+Which instrument is used to measure atmospheric pressure?
+Thermometer
+Anemometer
+Barometer
+Hygrometer
+3
+DIFFICULT
+What is the largest organ in the human body?
+Heart
+Brain
+Skin
+Liver
+3
 DIFFICULT
 
 
