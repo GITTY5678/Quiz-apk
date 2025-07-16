@@ -1,1 +1,3 @@
-Player: amir, Score: 2, Time Taken: 6.826 sec
+
+Player: taiwan, Score: 0, Time Taken: 0 sec
+Player: amir, Score: 0, Time Taken: 0 sec
